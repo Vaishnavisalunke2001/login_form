@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('img11.jpg') no-repeat center center/cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.main .images img{
+    width: 500px;
+    height:500px;
+}
+.container{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik',sans-serif;
+    opacity: 4;
+}
+.main-container{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 500px;
+    margin: 65px auto;
+    border-radius: 8%;
+    background-color: rgba(251, 233, 233, 0.626);
+    -webkit-backdrop-filter:blur(10px) ;
+    backdrop-filter: blur(5px);
+}
+.main-container h1{
+    color: black;
+    padding: 35px 35px 0 35px;
+    font-weight: 300;
+    font-size: 35px;
+}
+.main-container .content{
+    padding: 35px;
+    text-align: center;
+}
+.main-container .input-field{
+    padding: 12px 5px;
+    --input-default-border-color:rgb(20, 17, 17);
+}
+.main-container .input-field input{
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    padding: 10px 1px;
+    border: 0;
+    outline: none;
+    color: #121111;
+    background-color: transparent;
+    border-bottom: 1px solid #4d4c4c;
+    transition: all .2s;
+}
+.main-container .input-field input:focus{
+    border-color: #a91d1d;
+}
+.main-container .group{
+    display: flex;
+    justify-content: space-between;
+}
+.main-container .group a.link{
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    color: #060606;
+    text-transform: uppercase;
+    margin: 20px 20px;
+    display: inline-block;
+    position: relative;
+    top: -20px;
+    font-size: 13px;
+}
+.main-container .group a.link:hover{
+    color: rgb(205, 45, 45);
+}
+.main-container .action{
+    display: flex;
+    margin-left: 28px;
+    font-weight: 300;
+}
+.main-container .action button{
+    border: 1px solid #030922;
+    border-radius: 30px;
+    padding: 10px 150px 10px 150px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: #0e0d0d;
+    font-size: 20px;
+    background-color: rgb(81, 112, 175);
+    letter-spacing: 0;
+    outline: 0;
+    transition: all .3s;
+}
+.main-container .action button:hover{
+    color: rgb(232, 229, 229);
+    background-color: #110231;
+}
+.main-container .create .text{
+    margin: 30px;
+    font-size: 15px;
+}
+.main-container .create a.link1:hover{
+    color: rgb(205, 45, 45);
+}
+
+
